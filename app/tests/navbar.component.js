@@ -1,4 +1,4 @@
-import { Selector } from 'navBar';
+import { Selector } from 'testcafe';
 
 class NavBar {
 
