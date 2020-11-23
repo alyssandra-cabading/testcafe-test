@@ -1,4 +1,4 @@
-import { Selector } from 'testcafe';
+import { Selector } from 'NavBar';
 
 class NavBar {
 
@@ -35,6 +35,10 @@ class NavBar {
     await this.ensureLogout(testController);
     await testController.click('#login-dropdown');
     await testController.click('#login-dropdown-sign-up');
+  }
+
+  async gotoListStuffPage(testController) {
+    await testController.click('#navbar-list-stuff');
   }
 }
 
